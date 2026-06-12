@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+     <body>
+    <head>
+        <title>Hacker HR Portal</title>
+        <link rel="icon"href="https://www.favicon.cc/logo3d/512858.png">
+    </head>
+    <style>
+    h1{
+        color:rgb(0, 0, 0);
+        font-size:50px;
+        padding:10px;
+        background-color:rgb(36, 102, 82);
+        text-align:center;
+
+    }
+    header{
+       text-align:center;  
+    }
+    .navitem{
+        display:inline;
+        padding:200px;
+    }
+    .navitem a{
+        text-decoration:none;
+        color:rgb(1, 36, 4)
+    }
+    body{
+        margin:0;
+        background-color:#cff5b0;
+    }
+    .registerform{
+        text-align:center;
+    }
+    .selectionemployee{
+        text-align:center;
+    }
+    .contact{
+        text-align:center;
+    }
+    </style>
+    <h1> Welcome  Employee HR Portal</h1><br>
+      <header>
+    <nav>
+    <ul>
+        <li class="navitem"><a href="#employee-registration">Employee Registration</a></li>
+        <li class="navitem"><a href="#employee-data">Employee Details</a></li>
+        <li class="navitem"><a href="#Contact-us">Contact us</a></li>
+    </ul>
+    </nav>
+    </header>
+    <image src="https://png.pngtree.com/template/20220516/ourmid/pngtree-hr-management-word-concepts-blue-banner-image_1575398.jpg" height="300" width="1880"></image>
+    <section id="#employee-registration" class="registerform">
+      <h2>Employee Registration</h2>
+      <form>
+        <label>Name: </label>
+        <input type="text" placeholders="Name: "required><br>
+
+        <label>Date of birth: </label>
+        <input type="date" id="age" required><br>
+
+        <label>Father's Name: </label>
+         <input type="text" placeholders="Father's name: " required><br>
+
+         <label>Date of Joining: </label>
+         <input type="date" id="Joining date"><br>
+
+         <label>Qualification: </label>
+         <input type="text" palceholders="Qualification" required><br>
+         <label>Year of Experience: </label>
+         <input type="number" id ="Experience"><br>
+          <label>Role in Previous Company</label>
+          <select required>
+            <option value="">Select</option>
+            <option>No Experience</option>
+            <option>Software Manager</option>
+            <option>Backend,frontend,FullStack Devloper</option>
+            <option>Recruiter</option>
+            <option>Labourer Manager</option>
+            <option>Manager</option>
+            <option>Assistant Manager</option>
+            <option>Computer Operator</option>
+            <option>Intern</option>
+            <option>Malware Security</option>
+          </select><br>
+           <label >email id</label>
+           <input type="email" id="email id" required><br>
+             <label>Phone Number: </label>
+            <input type="text" id="phone" required><br>
+          <label>Upload your resume: </label><br>
+           <input type="file" value="Upload your resume" accept=".jpg, .jpeg, .pdf" "required"><br>
+           <label>Explain your intrest in this registration: </label>
+           <textarea placeholder="Explain your intrest in this registration."rows="1",columns="1"></textarea><br>
+            <label>Password</label>
+              <input type="password" id="password" name="password" required pattern="^(?=.*[!@#$%^&*]).{6,}$" title="Password must be at least 6 characters and include one special character (!@#$%^&*)"><br>
+        <br><input type="submit">
+        <br><input type="reset">
+      </form> 
+    </section>
+    <section id="#employee-data" class="selectionemployee">
+        <style>
+            h2{
+                color:rgb(214, 76, 76);
+                font-size:25px;
+            }
+        </style>
+        <h2>Working Employee Data</h2>
+        <table style="margin:auto; border:1px solid black;">
+         <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Work</th>
+    <th>Salary</th>
+    <th>Joining Year</th>
+  </tr>
+
+  <tr><td>1</td><td>Amit</td><td>Developer</td><td>35000</td><td>2018</td></tr>
+  <tr><td>2</td><td>Priya</td><td>Designer</td><td>30000</td><td>2019</td></tr>
+  <tr><td>3</td><td>Rahul</td><td>Manager</td><td>50000</td><td>2017</td></tr>
+  <tr><td>4</td><td>Neha</td><td>HR</td><td>28000</td><td>2020</td></tr>
+  <tr><td>5</td><td>Vikas</td><td>Tester</td><td>25000</td><td>2021</td></tr>
+  <tr><td>6</td><td>Sonia</td><td>Developer</td><td>36000</td><td>2018</td></tr>
+  <tr><td>7</td><td>Arjun</td><td>Designer</td><td>31000</td><td>2019</td></tr>
+  <tr><td>8</td><td>Kiran</td><td>Manager</td><td>52000</td><td>2016</td></tr>
+  <tr><td>9</td><td>Deepak</td><td>HR</td><td>29000</td><td>2020</td></tr>
+  <tr><td>10</td><td>Meena</td><td>Tester</td><td>26000</td><td>2021</td></tr>
+  <tr><td>11</td><td>Ravi</td><td>Developer</td><td>37000</td><td>2018</td></tr>
+  <tr><td>12</td><td>Anita</td><td>Designer</td><td>32000</td><td>2019</td></tr>
+  <tr><td>13</td><td>Suresh</td><td>Manager</td><td>54000</td><td>2017</td></tr>
+  <tr><td>14</td><td>Geeta</td><td>HR</td><td>30000</td><td>2020</td></tr>
+  <tr><td>15</td><td>Mohit</td><td>Tester</td><td>27000</td><td>2021</td></tr>
+  <tr><td>16</td><td>Rina</td><td>Developer</td><td>38000</td><td>2018</td></tr>
+  <tr><td>17</td><td>Ajay</td><td>Designer</td><td>33000</td><td>2019</td></tr>
+  <tr><td>18</td><td>Sunita</td><td>Manager</td><td>56000</td><td>2016</td></tr>
+  <tr><td>19</td><td>Kamal</td><td>HR</td><td>31000</td><td>2020</td></tr>
+  <tr><td>20</td><td>Pooja</td><td>Tester</td><td>28000</td><td>2021</td></tr>
+    </table>
+</section>
+<section id="#Contact-us" class="contact">
+    <h2>Contact us</h2>
+    <p>Email at: shashwatripathi9506@gmail.com or Call us on: 9506511901</p>
+    <p><b>Office Timings 10:00PM to 4:00PM</b></p>
+   <h3>Office Location</h3>
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.123456789!2d82.872!3d25.123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2f123456789%3A0x123456789abcdef!2sVaranasi%2C%20UP!5e0!3m2!1sen!2sin!4v1621234567890!5m2!1sen!2sin" 
+  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+</iframe>
+</section>
+    </body>
+</html>
